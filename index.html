@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroNurture</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>NeuroNurture</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="resource.html">RESOURCES</a></li>
+                    <li><a href="PD.html">PROFFESIONAL DEVELOPMENT</a></li>
+                    <li><a href="teams.html">TEAM</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Transforming Perspectives on Neurodiversity</h1>
+            <h3>With Awareness, Education, and Empowerment.</h3>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="heading">
+            <h1>AROUND ONE IN FIVE PEOPLE ARE <br><span>NEURODIVERGENT.</span></h1>
+            <blockquote>
+                <p>“Neurodiversity may be every bit as crucial for the human race as biodiversity is for life in general. Who can say what form of wiring will prove best at any given moment?”</p>
+                <footer> <b>— Harvey Blume, The Atlantic, 1998</b></footer>
+            </blockquote>
+            <div class="content">
+                <p>Although there is broad diversity across the population, some individuals have neurological variations that make it particularly challenging for their communication, self-expression, and interactions with others. Neurodivergence is a broad umbrella and is not just autism. Neurological variations can include autism, ADHD, dyslexia, dyspraxia, dyscalculia, dysgraphia, and tics. (However, <a href="#">Judy Singer</a>, who coined the term, proposes that we are ALL neurodiverse because no two humans on the planet are exactly the same.)</p>
+                <p>The environments within which individuals with these neurovariations learn, work, and live can either facilitate or inhibit their growth and development.</p>
+                <p>The purpose of this initiative is to create environments that will maximally facilitate these individuals to grow and achieve their full potential. It is about facilitating a community of practice for universities, colleges, employers, and service providers to work together to create these environments and opportunities for neurodivergent young adults.</p>
+                <p>The <a href="#">Resources</a> section includes a vast array of resources that have been created or curated for use by neurodivergent students, their parents and carers, employers, and universities.</p>
+            </div>
+            <a href="#" class="learn-more">LEARN MORE ABOUT NEURODIVERSITY</a>
+        </div>
+    </section>
+
+
+    <section class="why-neurodiversity-hub">
+        <div class="hub">
+            <h1>WHY THE <span>NeuroNurture?</span></h1>
+            <h2>THE CHALLENGE</h2>
+            <p>There are countless neurodivergent individuals who possess incredible talents and unique perspectives.
+            </p>
+            <p>Unfortunately, many of these individuals face significant barriers in accessing education tailored to their needs. These challenges may include:</p>
+            <ul>
+                <li>Lack of inclusive educational environments that accommodate different learning styles and needs.</li>
+                <li>Inadequate support systems in traditional educational settings, which can lead to frustration, underachievement, or dropping out.
+                </li>
+                <li>Limited access to specialized resources such as assistive technologies, tailored curricula, or trained educators who understand the diverse ways in which neurodivergent individuals learn.
+                </li>
+            </ul>
+            <p>Without proper support, neurodivergent individuals may struggle to fully participate in educational opportunities, preventing them from realizing their full potential.
+            </p>
+        </div>
+        <div class="goal">
+            <h2>THE GOAL</h2>
+            <p>The aim of the NeuroNurture is to:</p>
+            
+            <ul>
+                <li>Provide tailored educational programs and resources that cater specifically to the needs of neurodivergent learners, ensuring they receive a quality education that respects and leverages their unique strengths.
+                </li>
+                <li>Create an inclusive and supportive learning environment where neurodivergent individuals feel safe, understood, and empowered to pursue their educational goals.
+                </li>
+                <li>Offer access to assistive technologies, flexible learning arrangements, and trained educators who are skilled in adapting teaching methods to support neurodivergent students.
+                </li>
+                <li>Promote awareness and understanding among educators and peers about neurodiversity, fostering a more inclusive and empathetic educational community.
+                </li>
+                <li>Establish partnerships with educational institutions worldwide to create a network of Neurodiversity Education Hubs, ensuring widespread access to specialized education for neurodivergent individuals.
+                </li>
+            </ul>
+            <p>By addressing these challenges and working towards these goals, the Neurodiversity Education Hub aims to ensure that all neurodivergent individuals have access to an education that empowers them to thrive and succeed.</p>
+            <a href="resource.html" class="resources-access">ACCESS OUR RESOURCES</a>
+        </div>
+    </section>
+
+
+        <!-- Chatbot Section -->
+        <div class="chatbot-container">
+            <div class="chatbot-header">
+                <h4>Chat with Us!</h4>
+                <button class="close-chatbot" onclick="toggleChatbot()">X</button>
+            </div>
+            <div class="chatbot-body">
+                <div class="messages-container" id="messages-container">
+                    <!-- Chat messages will appear here -->
+                </div>
+            </div>
+            <div class="chatbot-footer">
+                <input type="text" id="user-input" placeholder="Type a message..." onkeypress="handleKeyPress(event)">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    
+        <!-- Chatbot Toggle Button -->
+        <button class="open-chatbot" onclick="toggleChatbot()">SIMUS</button>
+
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h3>Contact Us</h3>
+                    <p><strong>Address:</strong> 1234 Street Name, City, Country</p>
+                    <p><strong>Email:</strong> contact@example.com</p>
+                    <p><strong>Phone:</strong> +123 456 7890</p>
+                </div>
+                <div class="about">
+                    <h3>About Us</h3>
+                    <p>We are dedicated to providing the best services and support for our clients. Our team is passionate about making a positive impact.</p>
+                </div>
+                <div class="social-media">
+                    <h3>Follow Us</h3>
+                    <a href="https://facebook.com" target="_blank" class="social-icon">Facebook</a>
+                    <a href="https://twitter.com" target="_blank" class="social-icon">Twitter</a>
+                    <a href="https://instagram.com" target="_blank" class="social-icon">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your Company. All rights reserved.</p>
+            </div>
+        </footer>
+        
+
+    <script src="scripts.js"></script>
+</body>
+</html>

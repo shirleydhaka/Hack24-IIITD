@@ -1,0 +1,456 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #323232b4;
+    color: #ffffff;
+    padding: 10px 0;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -25px;
+    font-size: 14px;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li a.active {
+    font-weight: bold;
+}
+
+
+
+main {
+    padding: 20px 0;
+}
+.resources-section {
+    padding: 3px 0;
+    text-align: left;
+}
+.resources-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.resources-section p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+
+/* Professional Development Section */
+
+.professional-development-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center; /* Explicitly center the h2 tag */
+}   
+.professional-development-section {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.school-cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.school-card {
+    background-color: #f9f9f9;
+    border: 1px solid #424242;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-sizing: border-box;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.school-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.school-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.school-card p strong {
+    color: #333;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .school-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .school-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Button Styles */
+.learn-more-button-1 {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000; /* Black text color */
+    background-color: #fff; /* White background */
+    border: 2px solid #000; /* Black border */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    /* margin-left: -89px; */
+    align-items: center;
+}
+
+.learn-more-button-1:hover {
+    background-color: #000; /* Black background on hover */
+    color: #fff; /* White text color on hover */
+}
+
+/*button 2*/
+.learn-more-button-2 {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000; /* Black text color */
+    background-color: #fff; /* White background */
+    border: 2px solid #000; /* Black border */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    /* margin-left: -89px; */
+    align-items: center;
+}
+
+.learn-more-button-2:hover {
+    background-color: #000; /* Black background on hover */
+    color: #fff; /* White text color on hover */
+}
+
+/*button 3*/
+.learn-more-button-3 {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000; /* Black text color */
+    background-color: #fff; /* White background */
+    border: 2px solid #000; /* Black border */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    /* margin-left: -89px; */
+    align-items: center;
+}
+
+.learn-more-button-3:hover {
+    background-color: #000; /* Black background on hover */
+    color: #fff; /* White text color on hover */
+}
+
+/* Workshop*/
+.Workshop-tag {
+    background-color: #323232b4;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.Workshop-tag h1 {
+    margin: 0;
+}
+
+.Workshop-tag  p {
+    margin: 10px 0 0;
+}
+
+.workshops {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #000000;
+}
+
+.register-btn {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 2px;
+}
+
+
+/*chatbot*/
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #010758 ,#490d61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+.hero h1 span{
+    color: #ff2973;
+}
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #403d84;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: #ddd;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background: #ff2963;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+button img{
+    width: 16px;
+    margin-right: 10px;
+}
+select {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    textarea {
+        height: 156px;
+        width: 90%;
+    }
+    .hero h1{
+        font-size: 43px;
+        padding-left: 38px;
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      select {
+        margin-bottom: 10px;
+        width: 57%;
+        height: 15px;
+        padding: 15px;
+        font-size: 16px;
+
+    }
+  
+  }
+
+  @media only screen and (max-width: 600px) {
+    .hero h1 span {
+      color: #ff2973;
+    }
+  }
+
+/* image */
+.team-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.team-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* styles.css */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-content div {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-content p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}

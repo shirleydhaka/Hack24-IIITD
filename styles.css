@@ -1,0 +1,421 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: white;
+}
+
+header {
+    background-color: #323232b4;    
+    padding:35px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 36 20px;
+}
+
+.logo { 
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #000;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0;
+    line-height: 1.2;
+    align-items: center;
+}
+
+.hero-content h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    align-items: center;
+}
+
+/* content section*/
+.content-section{
+    color: #ffffff;
+    background: #ffffff;
+}
+
+.heading {
+    max-width: 1200px;
+    margin: 5px auto;
+    padding: 34px 20px;
+    margin-left: -152px;
+    font-size: 31px;
+}
+
+.heading h1 {
+    font-size: 2.2rem;
+    font-weight: 200;
+    text-align: center;
+    margin: 40px 0;
+    color: #000000;
+    line-height: 1.2;
+}
+
+h1 span {
+    font-weight: 600;
+    margin-left: -267px;
+}
+
+blockquote {
+    font-size: 1.25rem;
+    font-style: italic;
+    margin: 30px auto;
+    padding: 20px 40px;
+    border-left: 184px solid #ffffff;
+    color: #000000;
+    max-width: 800px;
+}
+blockquote p{
+    margin-top: -41px;
+}
+
+blockquote footer {
+    font-size: 0.9rem;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: -85px;
+}
+
+.content {
+    font-size: 1rem;
+    margin: 20px auto;
+    max-width: 900px;
+    margin-right: 13px;
+}
+
+.content p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+a {
+    color: #e24c3f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.learn-more {
+    display: block;
+    width: 303px;
+    margin: 27px auto;
+    padding: 15px;
+    font-size: 0.7rem;
+    text-align: center;
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    margin-right: 290px;
+}
+
+.learn-more:hover {
+    background-color: #333;
+    color: #fff;
+} 
+
+/* why-neurodiversity-hub */
+
+.hub {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 108px;
+    padding: 39px 30px;
+}
+
+.why-neurodiversity-hub h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: left;
+    margin: -7px 0;
+    color: #333;
+    line-height: 1.2;
+    margin-left: 4px;
+}
+
+.why-neurodiversity-hub h1 span {
+    font-weight: 700;
+    margin-left: 2px;
+}
+
+.why-neurodiversity-hub h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #333;
+}
+
+.why-neurodiversity-hub p {
+    font-size: 1rem;
+    margin: 20px 0;
+    color: #666;
+    max-width: 800px;
+}
+
+.why-neurodiversity-hub ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    max-width: 800px;
+}
+
+.why-neurodiversity-hub ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.goal {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 108px;
+    padding: 39px 30px;
+    margin-top: -82px;
+}
+
+
+a {
+    color: #e24c3f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.resources-access {
+    display: block;
+    width: 303px;
+    margin: 27px auto;
+    padding: 15px;
+    font-size: 0.7rem;
+    text-align: center;
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    margin-right: 450px;
+}
+
+.resources-access:hover {
+    background-color: #333;
+    color: #fff;
+} 
+
+/* Chatbot Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chatbot-container {
+    width: 300px;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chatbot-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.chatbot-body {
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.message.user-message {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: white;
+}
+
+.message.bot-message {
+    align-self: flex-start;
+    background-color: #272727;
+}
+
+.chatbot-footer {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.chatbot-footer input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.chatbot-footer button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chatbot-footer button:hover {
+    background-color: #0056b3;
+}
+
+.open-chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #454545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+.open-chatbot:hover {
+    background-color: #0056b3;
+}
+
+.close-chatbot {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.close-chatbot:hover {
+    color: #ff4d4d;
+}
+
+/* styles.css */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-content div {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-content p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}

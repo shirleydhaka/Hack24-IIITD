@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    background-color: #323232b4;
+    color: #ffffff;
+    padding: 10px 0;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -25px;
+    font-size: 14px;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li a.active {
+    font-weight: bold;
+}
+main {
+    padding: 20px 0;
+}
+.resources-section {
+    padding: 50px 0;
+    text-align: left;
+}
+.resources-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.resources-section p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.section {
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+}
+.section:first-of-type {
+    border-top: none;
+}
+.section h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding: 6px;
+    background-color: #f4f4f4;
+    text-align: center;
+    display: inline-block;
+    width: 246px;
+    border: 1px solid #333;
+    border-radius: 38px;
+}
+h2:hover {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer; 
+}
+.section p {
+    margin: 0;
+}
+footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-content div {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-content p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
